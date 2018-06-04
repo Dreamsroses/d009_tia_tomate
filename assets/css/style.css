@@ -14,10 +14,7 @@
 .card-body{
 	background-color: #707070;
 	font-family: "Raleway";
-	text-align: center;
-	padding: 3rem;
 }
-
 
 /*.col-md-7{
 	background-color: #FAFAFA;
@@ -25,69 +22,109 @@
 .col-md-5{
 	background-color: #707070;
 }*/
+
+.logo-navbar{
+	max-width: 60%;
+	height: auto;
+}
 .row__img{
 	max-width: 100%;
 	height: auto;
 }
-.seccion2--light{
+.acerca--light{
 	background-color: #707070;
 }
-.seccion2__title1{
+.acerca__title1{
 	padding-left: 40px;
 	padding-top: 20px;
 	color: #FFFFFF;
 	font-family: "Raleway";
 	font-weight: 700;
 }
-.seccion2__title1--subtitulo{
-	padding-left: 40px;
+.acerca__title1--subtitulo{
+	padding-left: 10px;
 	color: #FFFFFF;
 	font-family: "Raleway";
 	font-weight: 200;
 }
-.seccion2__title2{
+.acerca__title2{
 	padding-left: 40px;
 	padding-top: 20px;
 	font-family: "Raleway";
 	font-weight: 700;
 	color: #686963;
 }
-.seccion2__title2--subtitulo{
+.acerca__title2--subtitulo{
 	padding-left: 40px;
 	font-weight: 200;
 }
-
 
 
 .row__img--persona1{
-	max-width: 100%;
-	height: auto;
-	padding: 120px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 100px;
 }
 .row__img--persona2{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.nosotros__title1{
+	padding-top: 140px;
+	font-family: "Raleway";
+	font-weight: 700;
+	color: #686963;
+}
+.nosotros__title1--subtitulo{
+	font-weight: 200;
+	padding-right: 80px;
+	text-align: justify;
+}
+.nosotros__title2{
+	padding-top: 140px;
+	font-family: "Raleway";
+	font-weight: 700;
+	color: #686963;
+}
+.nosotros__title2--subtitulo{
+	font-weight: 200;
+	padding-right: 80px;
+	text-align: justify;
+}
+.logo__footer{
 	max-width: 100%;
-	max-height: auto;
-	padding: 120px;
+	height: auto;
+	padding: 50px;
 }
-.seccion3__title1{
-	padding-top: 140px;
-	font-family: "Raleway";
-	font-weight: 700;
-	color: #686963;
+.facebook__icon{
+	margin: 25px;
 }
-.seccion3__title1--subtitulo{
-	font-weight: 200;
-	padding-right: 80px;
-	text-align: justify;
+.instagram__icon{
+margin: 25px;
+
 }
-.seccion3__title2{
-	padding-top: 140px;
-	font-family: "Raleway";
-	font-weight: 700;
-	color: #686963;
+.twitter__icon{
+	margin: 25px;
 }
-.seccion3__title2--subtitulo{
-	font-weight: 200;
-	padding-right: 80px;
-	text-align: justify;
+.links__sitio ul li{
+	text-align: left;
+	list-style:none;
+	margin: 25px;
 }
+
+@media (min-width: 300px) and (max-width: 600px){
+.row__img--persona2{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 100px;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 800px){
