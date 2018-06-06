@@ -2,19 +2,20 @@
 	background-color: #E56353;
 	text-align: center;
 	padding: 6rem;
+	max-width: 100%;
 }
 .principal__title{
 	color: white;
 	font-family: "Raleway";
+	font-size: 42px;
+	max-width: 100%;
 }
 .principal__title--strong{
 	font-weight: 700;
 	text-transform: uppercase;
+	max-width: 100%;
 }
-.card-body{
-	background-color: #707070;
-	font-family: "Raleway";
-}
+
 
 /*.col-md-7{
 	background-color: #FAFAFA;
@@ -25,37 +26,43 @@
 
 .logo-navbar{
 	max-width: 60%;
-	height: auto;
+	padding-left: 50px;
 }
-.row__img{
+.row__img--history{
 	max-width: 100%;
 	height: auto;
+}
+.row__img--tomates{
+	width: 100%;
+	height: auto;
+	margin-left: 14px;
 }
 .acerca--light{
 	background-color: #707070;
 }
 .acerca__title1{
-	padding-left: 40px;
-	padding-top: 20px;
+	padding-left: 50px;
+	padding-top: 100px;
 	color: #FFFFFF;
 	font-family: "Raleway";
 	font-weight: 700;
 }
 .acerca__title1--subtitulo{
-	padding-left: 10px;
+	padding-left: 50px;
 	color: #FFFFFF;
 	font-family: "Raleway";
 	font-weight: 200;
 }
 .acerca__title2{
-	padding-left: 40px;
-	padding-top: 20px;
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
 	font-family: "Raleway";
 	font-weight: 700;
 	color: #686963;
 }
 .acerca__title2--subtitulo{
-	padding-left: 40px;
+	padding-top: 40px;
 	font-weight: 200;
 }
 
@@ -64,16 +71,17 @@
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-top: 100px;
+    max-width: 100%;
+	height: auto;
+	padding: 120px;
 }
 .row__img--persona2{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    max-width: 100%;
+	height: auto;
+	padding: 120px;
 }
 .nosotros__title1{
 	padding-top: 140px;
@@ -83,7 +91,7 @@
 }
 .nosotros__title1--subtitulo{
 	font-weight: 200;
-	padding-right: 80px;
+	padding-right: 60px;
 	text-align: justify;
 }
 .nosotros__title2{
@@ -94,9 +102,14 @@
 }
 .nosotros__title2--subtitulo{
 	font-weight: 200;
-	padding-right: 80px;
+	padding-right: 60px;
 	text-align: justify;
 }
+.principal__title--blog{
+	font-weight: 700;
+}
+
+
 .logo__footer{
 	max-width: 100%;
 	height: auto;
@@ -106,8 +119,7 @@
 	margin: 25px;
 }
 .instagram__icon{
-margin: 25px;
-
+	margin: 25px;
 }
 .twitter__icon{
 	margin: 25px;
@@ -115,16 +127,56 @@ margin: 25px;
 .links__sitio ul li{
 	text-align: left;
 	list-style:none;
-	margin: 25px;
+	padding-left: 100px;
 }
 
 @media (min-width: 300px) and (max-width: 600px){
+.row__img--persona1{
+    width: 90vw;
+ 	margin-top: 0px;
+}
 .row__img--persona2{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 100px;
+  	width: 90vw;
+  	margin-top: 0px;
+}
+.nosotros__title1{
+	padding: 10px;
+}
+.nosotros__title1--subtitulo{
+	padding-top: 10px;
+}
+.nosotros__title2{
+	padding: 25px;
+}
+.nosotros__title2--subtitulo{
+	padding: 20px;
+}
+.acerca__title1{
+	padding: 10vw;
+}
+.acerca__title1--subtitulo{
+	padding: 10vw;
+}
+.acerca__title2{
+	padding: 10vw;
+}
+.acerca__title2--subtitulo{
+	padding: 10vw;
+}
+.logo__footer{
+	display: none;
+}
+.facebook__icon{
+	margin: 25px;
+}
+.instagram__icon{
+	margin: 25px;
+}
+.twitter__icon{
+	margin: 25px;
+}
+.links__sitio ul li{
+	display: none;
 }
 }
 @media only screen and (min-width: 601px) and (max-width: 800px){
